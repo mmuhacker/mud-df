@@ -317,8 +317,13 @@ sudo apt install foremost -y
 **Termux**
 
 ```bash
-pkg install ffmpeg -y      # Termux
-sudo apt install ffmpeg -y # Kali
+pkg install ffmpeg -y
+```
+
+**Kali Linux**
+
+```bash
+sudo apt install ffmpeg -y
 ```
 
 **6. خطأ: identify: command not found**
