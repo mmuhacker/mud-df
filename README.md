@@ -427,6 +427,7 @@ MIT License — حر الاستخدام مع ذكر المصدر
 · الإصدار: v1.0
 
 ---
+
 <div align="center">
 
 **Madarik Tools — صُنع بالعربية**
