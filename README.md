@@ -113,7 +113,7 @@
 <div align="center" id="التثبيت-والتشغيل">
 
 ## 🚀 التثبيت والتشغيل
-
+</div>
 ---
 
 <div align="center" id="Termux ">
