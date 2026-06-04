@@ -14,6 +14,7 @@
 ![Platform](https://img.shields.io/badge/%EF%BA%84%EF%BB%A7%EF%BA%AA%EF%BA%AE%EF%BB%AE%EF%BB%B3%EF%BA%AA-%EF%BA%8D%EF%BB%9F%EF%BA%92%EF%BB%B4%EF%BA%8C%EF%BA%94-green?style=for-the-badge&logo=android)<br>
 ![Python](https://img.shields.io/badge/3.x-%EF%BA%91%EF%BA%8E%EF%BB%B3%EF%BA%9C%EF%BB%AE%EF%BB%A6-blue?style=for-the-badge&logo=python)<br>
 ![License](https://img.shields.io/badge/MIT-%EF%BA%8D%EF%BB%9F%EF%BA%98%EF%BA%AE%EF%BA%A7%EF%BB%B4%EF%BA%BA-red?style=for-the-badge)<br>
+[![Author](https://img.shields.io/badge/Author-mmuhacker-red?style=flat-square)](https://github.com/mmuhacker)<br>
 ![Status](https://img.shields.io/badge/%EF%BB%A7%EF%BA%B8%EF%BB%82-%EF%BA%8D%EF%BB%9F%EF%BA%A4%EF%BA%8E%EF%BB%9F%EF%BA%94-blue?style=for-the-badge)
 
 ---
@@ -25,15 +26,15 @@
 - [المميزات](#-المميزات)
 - [الأدوات المدمجة](#-الأدوات-المدمجة)
   - [🔍 تحليل الملفات](#-تحليل-الملفات)
-  - [🕵️ التحليل المتقدم](#-التحليل-المتقدم)
+  - [🕵️ التحليل المتقدم](#️-التحليل-المتقدم)
   - [💻 معلومات النظام](#-معلومات-النظام)
 - [التثبيت والتشغيل](#-التثبيت-والتشغيل)
-  - [تطبيق 🤖 Termux (Android)](#Termux)
-  - [نظام 🐉 Kali Linux](#kali-linux)
+  - [تطبيق 🤖 Termux (Android)](#-android--termux)
+  - [نظام 🐉 Kali Linux](#-kali-linux)
 - [طريقة الاستخدام](#-طريقة-الاستخدام)
-- [الأخطاء الشائعة والحلول](#الأخطاء-والحلول)
+- [الأخطاء الشائعة والحلول](#-الأخطاء-الشائعة-والحلول)
 - [إنشاء اختصار التشغيل](#-إنشاء-اختصار-التشغيل)
-- [إخلاء المسؤولية](#إخلاء-المسؤولية)
+- [إخلاء المسؤولية](#-إخلاء-المسؤولية)
 - [المطور](#-المطور)
 - [الرخصة](#-الرخصة)
 
@@ -60,16 +61,16 @@
 
 ---
 
-<div align="center" id="الأدوات-المدمجة>
+<div align="center">
 
 ## 🛠️ الأدوات المدمجة
 
-## 🔍 تحليل الملفات
+</div>
+
+### 🔍 تحليل الملفات
 
 | # | الأداة | الوصف |
-
 |---|--------|-------|
-
 | 1 | **ExifTool** | استخراج البيانات الوصفية الكاملة (EXIF) من الصور، PDF، الفيديو، المستندات |
 | 2 | **PDFInfo** | تحليل ملفات PDF: عدد الصفحات، المؤلف، تاريخ الإنشاء، الخوارزميات |
 | 3 | **file + strings** | تحديد نوع الملف الحقيقي + استخراج النصوص المخفية داخل الملفات الثنائية |
@@ -80,13 +81,10 @@
 
 ---
 
-## 🕵️ التحليل المتقدم
-
+### 🕵️ التحليل المتقدم
 
 | # | الأداة | الوصف |
-
 |---|--------|-------|
-
 | 8 | **Binwalk** | كشف الملفات المضمنة داخل الفيرمويرات والملفات (Steganography) |
 | 9 | **Foremost** | استرداد الملفات المحذوفة من أقراص أو صور نظام الملفات |
 | 10 | **ffprobe** | تحليل عميق لملفات الصوت والفيديو والصور (مدة، codec، bitrate، metadata) |
@@ -95,316 +93,261 @@
 
 ---
 
-## 💻 معلومات النظام
-
+### 💻 معلومات النظام
 
 | # | الأداة | الوصف |
-
 |---|--------|-------|
-
 | 13 | **الشبكة** | الاتصالات النشطة، المنافذ المفتوحة، جدول التوجيه، واجهات الشبكة |
 | 14 | **العمليات** | قائمة الأنشطة الجارية مرتبة حسب استهلاك CPU |
 | 15 | **معلومات النظام** | بيانات /proc: الذاكرة، المعالج، النواة، وقت التشغيل |
 | 16 | **تثبيت الأدوات** | تثبيت تلقائي لجميع الأدوات المطلوبة (Termux/Kali) |
 
-</div>
-
 ---
 
-<div align="center" id="التثبيت-والتشغيل">
+<div align="center">
 
 ## 🚀 التثبيت والتشغيل
 
-</div>
-
 ---
 
-<div align="center" id="Termux">
-
-## 📱 Android — Termux
+### 📱 Android — Termux
 
 </div>
 
 **الخطوة 1 — تحديث النظام وتثبيت Python**
-
 ```bash
 pkg update && pkg upgrade -y
 pkg install python -y
+```
 
 الخطوة 2 — تثبيت المكتبات الأساسية
-bash
-pip install arabic-reshaper python-bidi
 
-**الخطوة 3 — تثبيت الخط العربي (للعرض الصحيح)**
+```bash
+pip install arabic-reshaper python-bidi
+```
+
+الخطوة 3 — تثبيت الخط العربي (للعرض الصحيح)
+
 ```bash
 curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf
 termux-reload-settings
 ```
 
-**⚠️ أغلق Termux تماماً وافتحه من جديد بعد تثبيت الخط وتأكد من إغلاقه من قائمة تطبيقات الخلفية**
+⚠️ أغلق Termux تماماً وافتحه من جديد بعد تثبيت الخط وتأكد من إغلاقه من قائمة تطبيقات الخلفية
 
-**الخطوة 4 — تنزيل الأداة**
-
-```bash
-curl -o $`PREFIX/bin/mud_df.py https://raw.githubusercontent.com/mmuhacker/mud-df/main/mud_df.py
-chmod +x `$PREFIX/bin/mud_df.py
-```
-
-**الخطوة 5 — إنشاء اختصار التشغيل**
+الخطوة 4 — تنزيل الأداة
 
 ```bash
-ln -sf $`PREFIX/bin/mud_df.py `$PREFIX/bin/df
+curl -o $PREFIX/bin/mud_df.py https://raw.githubusercontent.com/mmuhacker/mud-df/main/mud_df.py
+chmod +x $PREFIX/bin/mud_df.py
 ```
 
-**الخطوة 6 — تثبيت الأدوات المطلوبة (من داخل الأداة)**
+الخطوة 5 — إنشاء اختصار التشغيل
+
+```bash
+ln -sf $PREFIX/bin/mud_df.py $PREFIX/bin/df
+```
+
+الخطوة 6 — تثبيت الأدوات المطلوبة (من داخل الأداة)
+
 · قم بتشغيل الأداة: df
 · اختر [4] من القائمة الرئيسية
 · انتظر حتى يكتمل التثبيت
+
 ⚡ أو كل شيء في أمر واحد
 
 ```bash
-pkg update && pkg upgrade -y && pkg install python -y && pip install arabic-reshaper python-bidi && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o $`PREFIX/bin/mud_df.py https://raw.githubusercontent.com/mmuhacker/mud-df/main/mud_df.py && chmod +x `$PREFIX/bin/mud_df.py && ln -sf $`PREFIX/bin/mud_df.py `$PREFIX/bin/df && echo "تم التثبيت بنجاح! يمكنك الآن تشغيل الأداة بكتابة: df"
+pkg update && pkg upgrade -y && pkg install python -y && pip install arabic-reshaper python-bidi && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o $PREFIX/bin/mud_df.py https://raw.githubusercontent.com/mmuhacker/mud-df/main/mud_df.py && chmod +x $PREFIX/bin/mud_df.py && ln -sf $PREFIX/bin/mud_df.py $PREFIX/bin/df && echo "تم التثبيت بنجاح! يمكنك الآن تشغيل الأداة بكتابة: df"
 ```
 
 ● أمر التشغيل
+
 ```bash
 df
 ```
 
 ---
 
-<div align="center" id="Kali-Linux">
+<div align="center">
 
-## 🐉 Kali Linux
+🐉 Kali Linux
 
 </div>
 
-**الخطوة 1 — تحديث النظام وتثبيت Python**
+الخطوة 1 — تحديث النظام وتثبيت Python
 
 ```bash
-
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 pip -y
-
 ```
 
-**الخطوة 2 — تثبيت المكتبات الأساسية**
+الخطوة 2 — تثبيت المكتبات الأساسية
 
 ```bash
-
 pip3 install arabic-reshaper python-bidi
-
 ```
 
-**الخطوة 3 — تنزيل الأداة**
+الخطوة 3 — تنزيل الأداة
 
 ```bash
-
 sudo curl -o /usr/local/bin/mud_df.py https://raw.githubusercontent.com/mmuhacker/mud-df/main/mud_df.py
 sudo chmod +x /usr/local/bin/mud_df.py
-
 ```
 
-**الخطوة 4 — إنشاء اختصار التشغيل**
+الخطوة 4 — إنشاء اختصار التشغيل
 
 ```bash
-
 sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
-
 ```
 
-**الخطوة 5 — تثبيت الأدوات المطلوبة (من داخل الأداة)**
+الخطوة 5 — تثبيت الأدوات المطلوبة (من داخل الأداة)
+
 · قم بتشغيل الأداة: df
 · اختر [4] من القائمة الرئيسية
 · انتظر حتى يكتمل التثبيت
 
 ● أمر التشغيل
+
 ```bash
 df
 ```
 
 ---
 
-<div align="center" id="طريقة-الإستخدام">
+<div align="center">
 
-## 📖 طريقة الاستخدام
-
-| الخيار | الوظيفة |
-
-|---|--------|
-
-| [1] | 🔍 تحليل الملفات (ExifTool, PDFInfo, strings, file, Grep, Unzip, Hex, Hash) |
-| [2] | 🕵️ التحليل المتقدم (Binwalk, Foremost, ffprobe, ImageMagick, فحص شامل) |
-| [3] | 💻 معلومات النظام (الشبكة، العمليات، النظام) |
-| [4] | 🔧 تثبيت جميع الأدوات المطلوبة |
-| [5] | 📖 تعليمات الاستخدام |
-| [0] | 🚪 خروج |
+📖 طريقة الاستخدام
 
 </div>
 
-**اختصارات مهمة:**
+الخيار الوظيفة
+[1] 🔍 تحليل الملفات (ExifTool, PDFInfo, strings, file, Grep, Unzip, Hex, Hash)
+[2] 🕵️ التحليل المتقدم (Binwalk, Foremost, ffprobe, ImageMagick, فحص شامل)
+[3] 💻 معلومات النظام (الشبكة، العمليات، النظام)
+[4] 🔧 تثبيت جميع الأدوات المطلوبة
+[5] 📖 تعليمات الاستخدام
+[0] 🚪 خروج
+
+اختصارات مهمة:
+
 · اضغط 8 للرجوع من القوائم الفرعية
 · اضغط Ctrl + C للخروج من الأداة مباشرة من أي مكان
 
-───
+---
 
-<div align="center" id="الأخطاء-والحلول">
+<div align="center">
 
-## ⚠️ الأخطاء الشائعة والحلول
+⚠️ الأخطاء الشائعة والحلول
 
 </div>
 
-**1. خطأ:**
-exiftool: command not found
-**السبب:**
-الأداة غير مثبتة
-**الحل:**
+1. خطأ: exiftool: command not found
 
-**•من داخل الأداة، اختر 4 لتثبيت جميع الأدوات**
-**•أو يدوياً: بهذا الأمر**
-```bash
-pkg install exiftool -y  # Termux
-sudo apt install exiftool -y  # Kali
-```
+السبب: الأداة غير مثبتة
 
-**2. خطأ:**
-**pdfinfo: command not found**
-**الحل:**
-**•Termux**
+الحل:
+
+· من داخل الأداة، اختر 4 لتثبيت جميع الأدوات
+· أو يدوياً:
 
 ```bash
-pkg install poppler -y
+pkg install exiftool -y      # Termux
+sudo apt install exiftool -y # Kali
 ```
-**Kali Linux**
+
+2. خطأ: pdfinfo: command not found
+
+الحل:
 
 ```bash
-sudo apt install poppler-utils -y
+pkg install poppler -y               # Termux
+sudo apt install poppler-utils -y    # Kali
 ```
 
-**3. خطأ:**
+3. خطأ: binwalk: command not found
 
-**binwalk: command not found**
-
-**الحل:**
-
-**Termux**
+الحل:
 
 ```bash
-pkg install binwalk -y
+pkg install binwalk -y      # Termux
+sudo apt install binwalk -y # Kali
 ```
 
-**Kali Linux**
+4. خطأ: foremost: command not found
+
+الحل:
 
 ```bash
-sudo apt install binwalk -y
+pkg install foremost -y      # Termux
+sudo apt install foremost -y # Kali
 ```
 
-**4. خطأ:**
+5. خطأ: ffprobe: command not found
 
-**foremost: command not found**
-
-**الحل:**
-
-*Termux**
+الحل:
 
 ```bash
-pkg install foremost -y
+pkg install ffmpeg -y      # Termux
+sudo apt install ffmpeg -y # Kali
 ```
 
-**Kali Linux**
+6. خطأ: identify: command not found
+
+الحل:
 
 ```bash
-sudo apt install foremost -y
+pkg install imagemagick -y      # Termux
+sudo apt install imagemagick -y # Kali
 ```
 
-**5. خطأ:**
+7. خطأ: النص العربي معكوس ومتقطع
 
-**ffprobe: command not found**
-
-**الحل:**
-
-Termux**
-
-```bash
-pkg install ffmpeg -y
-```
-
-**Kali Linux**
-
-```bash
-sudo apt install ffmpeg -y
-```
-
-**6. خطأ:**
-
-**identify: command not found**
-
-**الحل:**
-
-**Termux**
-
-```bash
-pkg install imagemagick -y
-```
-
-**Kali Linux**
-```bash
-sudo apt install imagemagick -y
-```
-
-**7. خطأ:**
-
-**النص العربي معكوس ومتقطع**
-
-**الحل:**
-**Termux**
+الحل:
 
 ```bash
 pip install arabic-reshaper python-bidi
+# ثم أعد تشغيل Termux وتأكد من إغلاقه من قائمة التطبيقات في الخلفية
 ```
 
-**• ثم أعد تشغيل Termux تأكد من إغلاقه من قائمة التطبيقات في الخلفية**
+8. خطأ: Permission denied
 
-**8. خطأ:**
+السبب: عدم تفعيل إذن الوصول للملفات في Termux
 
-**Permission denied**
+الحل:
 
-**السبب: عدم تفعيل إذن الوصول للملفات في Termux**
-**الحل:**
-**Termux**
-
-``°bash
+```bash
 termux-setup-storage
 cd /sdcard/Download
-``
+```
 
 ---
 
-<div align="center" id="إنشاء-إختصار">
+<div align="center" id="إنشاء-إختصار-التشغيل">
 
-# 🔧 إنشاء اختصار التشغيل
+🔧 إنشاء اختصار التشغيل
 
 </div>
 
-**Termux:**
+Termux:
 
 ```bash
-ln -sf $`PREFIX/bin/mud_df.py `$PREFIX/bin/df
+ln -sf $PREFIX/bin/mud_df.py $PREFIX/bin/df
 ```
 
-**Kali Linux:**
+Kali Linux:
 
 ```bash
 sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 ```
 
-**للتشغيل: اكتب df واضغط Enter**
+للتشغيل: اكتب df واضغط Enter
 
-───
+---
 
-<div align="center" id="إخلاء-المسؤولية">
+<div align="center">
 
-## ⚠️ إخلاء المسؤولية
+⚠️ إخلاء المسؤولية
+
 </div>
 
 هذه الأداة مخصصة لأغراض تعليمية والتحقيق الجنائي الرقمي في المختبرات الشخصية فقط. استخدامها على أنظمة أو ملفات دون إذن مسبق يُعدّ مخالفاً للقانون.
@@ -414,10 +357,15 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 <div align="center" id="المطور">
 
 ## 👨‍ المطور
+
 **Muhannad Daher**
 
+[![GitHub](https://img.shields.io/badge/GitHub-mmuhacker-black?style=flat-square&logo=github)](https://github.com/mmuhacker)
+
+</div>
 
 ---
+
 <div align="center" id="الرخصة">
 
 ## 📄 الرخصة
@@ -428,15 +376,16 @@ MIT License — حر الاستخدام مع ذكر المصدر
 
 ---
 
-- مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)
-- البيئة: Termux (Android) / Kali Linux
-- الإصدار: v1.0
+· مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)
+· البيئة: Termux (Android) / Kali Linux
+· الإصدار: v1.0
 
 ---
 
 <div align="center">
 
-**Madarik Tools — صُنع بالعربية**
+Madarik Tools — صُنع بالعربية
 
-⭐ **إذا أعجبتك الأداة، لا تنسَ النجمة!** ⭐
+⭐ إذا أعجبتك الأداة، لا تنسَ النجمة! ⭐
+
 </div>
