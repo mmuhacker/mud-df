@@ -246,50 +246,73 @@ df
 
 </div>
 
-1. خطأ: exiftool: command not found
+**1. خطأ: exiftool: command not found**
 
-السبب: الأداة غير مثبتة
+**السبب: الأداة غير مثبتة**
 
-الحل:
+**الحل:**
 
-· من داخل الأداة، اختر 4 لتثبيت جميع الأدوات
-· أو يدوياً:
-
-```bash
-pkg install exiftool -y      # Termux
-sudo apt install exiftool -y # Kali
-```
-
-2. خطأ: pdfinfo: command not found
-
-الحل:
+- **من داخل الأداة، اختر 4 لتثبيت جميع الأدوات المطلوبة**
+- **أو يدوياً:**
+ **Termux**
 
 ```bash
-pkg install poppler -y               # Termux
-sudo apt install poppler-utils -y    # Kali
+pkg install exiftool -y
 ```
-
-3. خطأ: binwalk: command not found
-
-الحل:
+**Kali Linux**
 
 ```bash
-pkg install binwalk -y      # Termux
-sudo apt install binwalk -y # Kali
+sudo apt install exiftool -y
 ```
 
-4. خطأ: foremost: command not found
+**2. خطأ: pdfinfo: command not found**
 
-الحل:
+**الحل:**
+**Termux**
 
 ```bash
-pkg install foremost -y      # Termux
-sudo apt install foremost -y # Kali
+pkg install poppler -y
 ```
 
-5. خطأ: ffprobe: command not found
+**Kali Linux**
 
-الحل:
+```bash
+sudo apt install poppler-utils -y
+```
+
+**3. خطأ: binwalk: command not found**
+
+**الحل:**
+**Termux**
+
+```bash
+pkg install binwalk -y
+```
+**Kali Linux**
+
+```bash
+sudo apt install binwalk -y
+```
+
+**4. خطأ: foremost: command not found**
+
+**الحل:**
+**Termux**
+
+```bash
+pkg install foremost -y
+```
+
+**Kali Linux**
+
+```bash
+sudo apt install foremost -y
+```
+
+**5. خطأ: ffprobe: command not found**
+
+**الحل:**
+**Termux **
 
 ```bash
 pkg install ffmpeg -y      # Termux
