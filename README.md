@@ -242,7 +242,7 @@ df
 
 <div align="center" id="الأخطاء-الشائعة">
 
-#⚠️ الأخطاء الشائعة والحلول
+## ⚠️ الأخطاء الشائعة والحلول
 
 </div>
 
@@ -319,23 +319,30 @@ pkg install ffmpeg -y      # Termux
 sudo apt install ffmpeg -y # Kali
 ```
 
-6. خطأ: identify: command not found
+**6. خطأ: identify: command not found**
 
-الحل:
+**الحل:**
+**Termux **
 
 ```bash
-pkg install imagemagick -y      # Termux
-sudo apt install imagemagick -y # Kali
+pkg install imagemagick -y
 ```
 
-7. خطأ: النص العربي معكوس ومتقطع
+**Kali Linux **
 
-الحل:
+```bash
+sudo apt install imagemagick -y
+```
+
+**7. خطأ: النص العربي معكوس ومتقطع**
+
+**الحل:**
+*Termux *
 
 ```bash
 pip install arabic-reshaper python-bidi
-# ثم أعد تشغيل Termux وتأكد من إغلاقه من قائمة التطبيقات في الخلفية
 ```
+**ثم أعد تشغيل Termux وتأكد من إغلاقه من قائمة التطبيقات في الخلفية**
 
 8. خطأ: Permission denied
 
