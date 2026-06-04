@@ -288,6 +288,7 @@ sudo apt install poppler-utils -y
 ```bash
 pkg install binwalk -y
 ```
+
 **Kali Linux**
 
 ```bash
@@ -312,7 +313,8 @@ sudo apt install foremost -y
 **5. خطأ: ffprobe: command not found**
 
 **الحل:**
-**Termux **
+
+**Termux**
 
 ```bash
 pkg install ffmpeg -y      # Termux
@@ -322,13 +324,14 @@ sudo apt install ffmpeg -y # Kali
 **6. خطأ: identify: command not found**
 
 **الحل:**
-**Termux **
+
+**Termux**
 
 ```bash
 pkg install imagemagick -y
 ```
 
-**Kali Linux **
+**Kali Linux**
 
 ```bash
 sudo apt install imagemagick -y
@@ -337,18 +340,21 @@ sudo apt install imagemagick -y
 **7. خطأ: النص العربي معكوس ومتقطع**
 
 **الحل:**
-*Termux *
+
+**Termux**
 
 ```bash
 pip install arabic-reshaper python-bidi
 ```
+
 **ثم أعد تشغيل Termux وتأكد من إغلاقه من قائمة التطبيقات في الخلفية**
 
-8. خطأ: Permission denied
+**8. خطأ: Permission denied**
 
-السبب: عدم تفعيل إذن الوصول للملفات في Termux
+**السبب: عدم تفعيل إذن الوصول للملفات في Termux**
 
-الحل:
+**الحل:**
+**Termux**
 
 ```bash
 termux-setup-storage
