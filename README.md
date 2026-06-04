@@ -113,7 +113,9 @@
 <div align="center" id="التثبيت-والتشغيل">
 
 ## 🚀 التثبيت والتشغيل
+
 </div>
+
 ---
 
 <div align="center" id="Termux ">
@@ -173,6 +175,8 @@ df
 <div align="center" id="Kali-Linux">
 
 ## 🐉 Kali Linux
+
+</div>
 
 **الخطوة 1 — تحديث النظام وتثبيت Python**
 
@@ -246,6 +250,8 @@ df
 <div align="center" id="الأخطاء-والحلول">
 
 ⚠️ الأخطاء الشائعة والحلول
+
+</div>
 
 **1. خطأ:**
 exiftool: command not found
@@ -377,6 +383,8 @@ cd /sdcard/Download
 
 # 🔧 إنشاء اختصار التشغيل
 
+</div>
+
 **Termux:**
 
 ```bash
@@ -389,8 +397,6 @@ ln -sf $`PREFIX/bin/mud_df.py `$PREFIX/bin/df
 sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 ```
 
-</div>
-
 **للتشغيل: اكتب df واضغط Enter**
 
 ───
@@ -398,19 +404,20 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 <div align="center" id="إخلاء-المسؤولية">
 
 ## ⚠️ إخلاء المسؤولية
-هذه الأداة مخصصة لأغراض تعليمية والتحقيق الجنائي الرقمي في المختبرات الشخصية فقط. استخدامها على أنظمة أو ملفات دون إذن مسبق يُعدّ مخالفاً للقانون.
-
 </div>
+
+هذه الأداة مخصصة لأغراض تعليمية والتحقيق الجنائي الرقمي في المختبرات الشخصية فقط. استخدامها على أنظمة أو ملفات دون إذن مسبق يُعدّ مخالفاً للقانون.
 
 ---
 
-<div align="center">
+<div align="center" id="المطور">
 
 ## 👨‍ المطور
 **Muhannad Daher**
 
 
-───
+---
+<div align="center" id="الرخصة">
 
 ## 📄 الرخصة
 
@@ -420,11 +427,9 @@ MIT License — حر الاستخدام مع ذكر المصدر
 
 ---
 
-· مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)
-
-· البيئة: Termux (Android) / Kali Linux
-
-· الإصدار: v1.0
+- مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)
+- البيئة: Termux (Android) / Kali Linux
+- الإصدار: v1.0
 
 ---
 
