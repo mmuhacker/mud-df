@@ -227,6 +227,7 @@ df
 | الخيار | الوظيفة |
 
 |---|--------|
+
 | [1] | 🔍 تحليل الملفات (ExifTool, PDFInfo, strings, file, Grep, Unzip, Hex, Hash) |
 | [2] | 🕵️ التحليل المتقدم (Binwalk, Foremost, ffprobe, ImageMagick, فحص شامل) |
 | [3] | 💻 معلومات النظام (الشبكة، العمليات، النظام) |
@@ -263,99 +264,131 @@ sudo apt install exiftool -y  # Kali
 **pdfinfo: command not found**
 **الحل:**
 **•Termux**
+
 ```bash
 pkg install poppler -y
 ```
 **Kali Linux**
+
 ```bash
 sudo apt install poppler-utils -y
 ```
 
 **3. خطأ:**
+
 **binwalk: command not found**
+
 **الحل:**
 
 **Termux**
+
 ```bash
 pkg install binwalk -y
 ```
 
 **Kali Linux**
+
 ```bash
 sudo apt install binwalk -y
 ```
 
 **4. خطأ:**
+
 **foremost: command not found**
+
 **الحل:**
+
 *Termux**
+
 ```bash
 pkg install foremost -y
 ```
+
 **Kali Linux**
+
 ```bash
 sudo apt install foremost -y
 ```
 
 **5. خطأ:**
+
 **ffprobe: command not found**
+
 **الحل:**
+
 Termux**
 
 ```bash
 pkg install ffmpeg -y
 ```
+
 **Kali Linux**
+
 ```bash
 sudo apt install ffmpeg -y
 ```
 
 **6. خطأ:**
+
 **identify: command not found**
+
 **الحل:**
+
 **Termux**
+
 ```bash
 pkg install imagemagick -y
 ```
+
 **Kali Linux**
+```bash
 sudo apt install imagemagick -y
 ```
 
 **7. خطأ:**
+
 **النص العربي معكوس ومتقطع**
+
 **الحل:**
 **Termux**
 
 ```bash
 pip install arabic-reshaper python-bidi
 ```
+
 **• ثم أعد تشغيل Termux تأكد من إغلاقه من قائمة التطبيقات في الخلفية**
 
 **8. خطأ:**
+
 **Permission denied**
+
 **السبب: عدم تفعيل إذن الوصول للملفات في Termux**
 **الحل:**
 **Termux**
+
 ``°bash
 termux-setup-storage
 cd /sdcard/Download
-```
-
+``
 
 ---
 
 <div align="center" id="إنشاء-إختصار">
 
 # 🔧 إنشاء اختصار التشغيل
+
 **Termux:**
+
 ```bash
 ln -sf $`PREFIX/bin/mud_df.py `$PREFIX/bin/df
 ```
 
 **Kali Linux:**
+
 ```bash
 sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 ```
+
 </div>
 
 **للتشغيل: اكتب df واضغط Enter**
@@ -369,7 +402,7 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 
 </div>
 
-───
+---
 
 <div align="center">
 
@@ -380,15 +413,21 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 ───
 
 ## 📄 الرخصة
+
+</div>
+
 MIT License — حر الاستخدام مع ذكر المصدر
 
-───
+---
 
 · مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)
 · البيئة: Termux (Android) / Kali Linux
 · الإصدار: v1.0
 
-───
+---
+<div align="center">
 
-Madarik Tools — صُنع بالعربية
+**Madarik Tools — صُنع بالعربية**
+
 ⭐ **إذا أعجبتك الأداة، لا تنسَ النجمة!** ⭐
+</div>
