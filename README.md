@@ -123,6 +123,7 @@
 </div>
 
 **الخطوة 1 — تحديث النظام وتثبيت Python**
+
 ```bash
 pkg update && pkg upgrade -y
 pkg install python -y
@@ -137,9 +138,10 @@ curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9Pk
 termux-reload-settings
 ```
 
-**⚠️ أغلق Termux تماماً وافتحه من جديد بعد تثبيت الخط
+**⚠️ أغلق Termux تماماً وافتحه من جديد بعد تثبيت الخط وتأكد من إغلاقه من قائمة تطبيقات الخلفية**
 
 **الخطوة 4 — تنزيل الأداة**
+
 ```bash
 curl -o $`PREFIX/bin/mud_df.py https://raw.githubusercontent.com/mmuhacker/mud-df/main/mud_df.py
 chmod +x `$PREFIX/bin/mud_df.py
@@ -166,32 +168,44 @@ pkg update && pkg upgrade -y && pkg install python -y && pip install arabic-resh
 df
 ```
 
-───
+---
 
 <div align="center" id="Kali-Linux">
 
 ## 🐉 Kali Linux
 
 **الخطوة 1 — تحديث النظام وتثبيت Python**
+
 ```bash
+
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 pip -y
+
 ```
 
 **الخطوة 2 — تثبيت المكتبات الأساسية**
+
 ```bash
+
 pip3 install arabic-reshaper python-bidi
+
 ```
 
 **الخطوة 3 — تنزيل الأداة**
+
 ```bash
+
 sudo curl -o /usr/local/bin/mud_df.py https://raw.githubusercontent.com/mmuhacker/mud-df/main/mud_df.py
 sudo chmod +x /usr/local/bin/mud_df.py
+
 ```
 
 **الخطوة 4 — إنشاء اختصار التشغيل**
+
 ```bash
+
 sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
+
 ```
 
 **الخطوة 5 — تثبيت الأدوات المطلوبة (من داخل الأداة)**
@@ -210,7 +224,9 @@ df
 
 📖 طريقة الاستخدام
 | الخيار | الوظيفة |
+
 |---|--------|
+
 | [1] | 🔍 تحليل الملفات (ExifTool, PDFInfo, strings, file, Grep, Unzip, Hex, Hash) |
 | [2] | 🕵️ التحليل المتقدم (Binwalk, Foremost, ffprobe, ImageMagick, فحص شامل) |
 | [3] | 💻 معلومات النظام (الشبكة، العمليات، النظام) |
