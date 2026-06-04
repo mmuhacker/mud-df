@@ -223,10 +223,10 @@ df
 <div align="center" id="طريقة-الإستخدام">
 
 📖 طريقة الاستخدام
+
 | الخيار | الوظيفة |
 
 |---|--------|
-
 | [1] | 🔍 تحليل الملفات (ExifTool, PDFInfo, strings, file, Grep, Unzip, Hex, Hash) |
 | [2] | 🕵️ التحليل المتقدم (Binwalk, Foremost, ffprobe, ImageMagick, فحص شامل) |
 | [3] | 💻 معلومات النظام (الشبكة، العمليات، النظام) |
