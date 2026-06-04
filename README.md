@@ -118,7 +118,7 @@
 
 ---
 
-<div align="center" id="Termux ">
+<div align="center" id="Termux">
 
 ## 📱 Android — Termux
 
