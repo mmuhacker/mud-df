@@ -428,15 +428,15 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 
 ## 📄 الرخصة
 
-MIT License — حر الاستخدام مع ذكر المصدر
+**MIT License — حر الاستخدام مع ذكر المصدر**
 
 </div>
 
 ---
 
-- مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)
-- البيئة: Termux (Android) / Kali Linux
-- الإصدار: v1.0
+- **مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)**
+- **البيئة: Termux (Android) / Kali Linux**
+- **الإصدار: v1.0**
 
 ---
 
