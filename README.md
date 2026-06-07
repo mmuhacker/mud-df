@@ -248,12 +248,14 @@ df
 
 **1. خطأ: exiftool: command not found**
 
-**السبب: الأداة غير مثبتة**
+**السبب: الأداة exiftool غير مثبتة**
 
 **الحل:**
 
 - **من داخل الأداة، اختر 4 لتثبيت جميع الأدوات المطلوبة**
+  
 - **أو يدوياً:**
+  
  **Termux**
 
 ```bash
@@ -266,6 +268,8 @@ sudo apt install exiftool -y
 ```
 
 **2. خطأ: pdfinfo: command not found**
+
+**السبب:  الأداة pdfinfo غير موجودة**
 
 **الحل:**
 **Termux**
@@ -282,6 +286,8 @@ sudo apt install poppler-utils -y
 
 **3. خطأ: binwalk: command not found**
 
+**السبب: الأداة binwalk غير موجودة**
+
 **الحل:**
 **Termux**
 
@@ -296,6 +302,8 @@ sudo apt install binwalk -y
 ```
 
 **4. خطأ: foremost: command not found**
+
+**السبب: الأداة foremost غير موجودة**
 
 **الحل:**
 **Termux**
@@ -312,6 +320,8 @@ sudo apt install foremost -y
 
 **5. خطأ: ffprobe: command not found**
 
+**السبب: الأداة ffprobe غير موجودة**
+
 **الحل:**
 
 **Termux**
@@ -327,6 +337,8 @@ sudo apt install ffmpeg -y
 ```
 
 **6. خطأ: identify: command not found**
+
+**السبب: الأداة identify غير موجودة**
 
 **الحل:**
 
@@ -396,7 +408,7 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 
 </div>
 
-هذه الأداة مخصصة لأغراض تعليمية والتحقيق الجنائي الرقمي في المختبرات الشخصية فقط. استخدامها على أنظمة أو ملفات دون إذن مسبق يُعدّ مخالفاً للقانون.
+**هذه الأداة مخصصة لأغراض تعليمية والتحقيق الجنائي الرقمي في المختبرات الشخصية فقط. استخدامها على أنظمة أو ملفات دون إذن مسبق يُعدّ مخالفاً للقانون.**
 
 ---
 
@@ -416,22 +428,22 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 
 ## 📄 الرخصة
 
-</div>
-
 MIT License — حر الاستخدام مع ذكر المصدر
+
+</div>
 
 ---
 
-· مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)
-· البيئة: Termux (Android) / Kali Linux
-· الإصدار: v1.0
+- مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)
+- البيئة: Termux (Android) / Kali Linux
+- الإصدار: v1.0
 
 ---
 
 <div align="center">
 
-Madarik Tools — صُنع بالعربية
+**Madarik Tools — صُنع بالعربية**
 
-⭐ إذا أعجبتك الأداة، لا تنسَ النجمة! ⭐
+⭐ **إذا أعجبتك الأداة، لا تنسَ النجمة!** ⭐
 
 </div>
