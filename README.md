@@ -418,7 +418,8 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 
 **Muhannad Daher**
 
-[![GitHub](https://img.shields.io/badge/GitHub-mmuhacker-black?style=flat-square&logo=github)](https://github.com/mmuhacker)
+[![GitHub](https://img.shields.io/badge/GitHub-mmuhacker-black?style=for-the-badge)
+&logo=github)](https://github.com/mmuhacker)
 
 </div>
 
