@@ -524,11 +524,12 @@ border: 2px solid var(--color-border-default);
 box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 background: var(--color-canvas-default);
 padding: 5px;">
-  <img src="img/005.png width="45%" style="border-radius: 20px;
+  <img src="img/005.png" width="45%" style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
 box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 background: var(--color-canvas-default);
 padding: 5px;">
+
 </div>
 ---
 
