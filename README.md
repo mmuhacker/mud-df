@@ -404,7 +404,7 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 
 <div align="center">
 
-⚠️ إخلاء المسؤولية
+## ⚠️ إخلاء المسؤولية
 
 </div>
 
