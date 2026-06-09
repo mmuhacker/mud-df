@@ -75,7 +75,7 @@ padding: 5px;">
 
 <i style="color: var(--color-fg-default);">الشكل 1: القائمة الرئيسية للأداة (تحليل ملفات، متقدم، معلومات النظام)</i>
 
-</div>
+---
 
 <div align="center" id="الأدوات-المدمجة">
 
@@ -97,7 +97,19 @@ padding: 5px;">
 | 6 | **Hex Dump** | عرض محتوى أي ملف بصيغة Hexadecimal مع الترميز ASCII |
 | 7 | **Hash** | حساب بصمات MD5، SHA1، SHA256، SHA512 مع إمكانية المقارنة |
 
+---
 
+📷 **تحليل الملفات – اختيار نوع التحليل**
+
+<img src="img/002.png"
+width="80%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 2: قائمة تحليل الملفات</i>
 
 ---
 
@@ -111,6 +123,19 @@ padding: 5px;">
 | 11 | **ImageMagick identify** | تفاصيل دقيقة للصور: الأبعاد، العمق، ملف اللون، الضغط |
 | 12 | **فحص شامل** | تقرير موحد يجمع كل الأدوات في ملف TXT محفوظ تلقائياً |
 
+
+📷 **التحليل المتقدم – اختيار نوع التحليل**
+
+<img src="img/003.png"
+width="80%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 3: قائمة التحليل المتقدم</i>
+
 ---
 
 ### 💻 معلومات النظام
@@ -121,9 +146,35 @@ padding: 5px;">
 | 14 | **العمليات** | قائمة الأنشطة الجارية مرتبة حسب استهلاك CPU |
 | 15 | **معلومات النظام** | بيانات /proc: الذاكرة، المعالج، النواة، وقت التشغيل |
 | 16 | **تثبيت الأدوات** | تثبيت تلقائي لجميع الأدوات المطلوبة (Termux/Kali) |
-</div>
+
+
+📷 **معلومات النظام – اختيار نوع المعلومات**
+
+<img src="img/004.png"
+width="80%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 4: إستخراج معلومات النظام</i>
 
 ---
+
+📷 **تعليمات الإستخدام**
+
+<img src="img/005.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 5: تعليمات الإستخدام</i>
+
+</div>
 
 <div align="center">
 
