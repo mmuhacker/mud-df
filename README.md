@@ -61,6 +61,22 @@
 
 ---
 
+<div align="center">
+
+📷 **القائمة الرئيسية – اختيار نوع التحليل**
+
+<img src="img/001.png"
+width="80%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 1: القائمة الرئيسية للأداة (تحليل ملفات، متقدم، معلومات النظام)</i>
+
+</div>
+
 <div align="center" id="الأدوات-المدمجة">
 
 ## 🛠️ الأدوات المدمجة
@@ -80,6 +96,8 @@
 | 5 | **Unzip** | فحص محتويات الأرشيفات المضغوطة واستخراجها |
 | 6 | **Hex Dump** | عرض محتوى أي ملف بصيغة Hexadecimal مع الترميز ASCII |
 | 7 | **Hash** | حساب بصمات MD5، SHA1، SHA256، SHA512 مع إمكانية المقارنة |
+
+
 
 ---
 
