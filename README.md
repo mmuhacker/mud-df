@@ -500,7 +500,36 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 **رخصة الاستخدام والنشر مع منع التعديل** – يُسمح باستخدام الأداة ونشرها بحرية، لكن يُمنع تعديل الكود أو هندسته عكسياً. راجع ملف [الترخيص](https://github.com/mmuhacker/mud-df/blob/main/LICENSE.md) للتفاصيل الكاملة.
 
 </div>
-
+---
+<div align="center">
+  - 📷 **صور الأداة**
+  
+  <img src="img/001.png" width="60%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+  <img src="img/002.png" width="45%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+  <img src="img/003.png" width="45%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+  <img src="img/004.png" width="45%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+  <img src="img/005.png" width="45%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+</div>
 ---
 
 - **مجموعة أدوات التحقيق الجنائي الرقمي (17 أداة)**
