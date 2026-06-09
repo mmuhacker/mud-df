@@ -500,8 +500,11 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 **رخصة الاستخدام والنشر مع منع التعديل** – يُسمح باستخدام الأداة ونشرها بحرية، لكن يُمنع تعديل الكود أو هندسته عكسياً. راجع [الترخيص](https://github.com/mmuhacker/mud-df/blob/main/LICENSE.md) للتفاصيل الكاملة.
 
 </div>
+
 ---
+
 <div align="center">
+  
   - 📷 **صور الأداة**
   
   <img src="img/001.png" width="45%" style="border-radius: 20px;
