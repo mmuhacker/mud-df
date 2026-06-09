@@ -81,9 +81,6 @@ padding: 5px;">
 
 ## 🛠️ الأدوات المدمجة
 
-</div>
-
-<div align="center">
 
 ### 🔍 تحليل الملفات
 
@@ -174,9 +171,7 @@ padding: 5px;">
 
 <i style="color: var(--color-fg-default);">الشكل 5: تعليمات الإستخدام</i>
 
-</div>
-
-<div align="center">
+---
 
 ## 🚀 التثبيت والتشغيل
 
@@ -497,15 +492,15 @@ sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
 
 ## 📄 الرخصة
 
-**رخصة الاستخدام والنشر مع منع التعديل** – يُسمح باستخدام الأداة ونشرها بحرية، لكن يُمنع تعديل الكود أو هندسته عكسياً. راجع [الترخيص](https://github.com/mmuhacker/mud-df/blob/main/LICENSE.md) للتفاصيل الكاملة.
-
 </div>
+
+**رخصة الاستخدام والنشر مع منع التعديل** – يُسمح باستخدام الأداة ونشرها بحرية، لكن يُمنع تعديل الكود أو هندسته عكسياً. راجع [الترخيص](https://github.com/mmuhacker/mud-df/blob/main/LICENSE.md) للتفاصيل الكاملة.
 
 ---
 
 <div align="center">
   
-  - 📷 **صور الأداة**
+📷 **صور الأداة**
   
   <img src="img/001.png" width="45%" style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
