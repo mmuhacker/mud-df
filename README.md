@@ -66,7 +66,7 @@
 📷 **القائمة الرئيسية – اختيار نوع التحليل**
 
 <img src="img/001.png"
-width="80%"
+width="90%"
 style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
 box-shadow: 0 8px 16px rgba(0,0,0,0.2);
@@ -102,7 +102,7 @@ padding: 5px;">
 📷 **تحليل الملفات – اختيار نوع التحليل**
 
 <img src="img/002.png"
-width="80%"
+width="90%"
 style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
 box-shadow: 0 8px 16px rgba(0,0,0,0.2);
@@ -127,7 +127,7 @@ padding: 5px;">
 📷 **التحليل المتقدم – اختيار نوع التحليل**
 
 <img src="img/003.png"
-width="80%"
+width="90%"
 style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
 box-shadow: 0 8px 16px rgba(0,0,0,0.2);
@@ -151,7 +151,7 @@ padding: 5px;">
 📷 **معلومات النظام – اختيار نوع المعلومات**
 
 <img src="img/004.png"
-width="80%"
+width="90%"
 style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
 box-shadow: 0 8px 16px rgba(0,0,0,0.2);
