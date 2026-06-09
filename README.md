@@ -63,6 +63,7 @@
 
 <div align="center">
 
+
 📷 **القائمة الرئيسية – اختيار نوع التحليل**
 
 <img src="img/001.png"
@@ -74,6 +75,8 @@ background: var(--color-canvas-default);
 padding: 5px;">
 
 <i style="color: var(--color-fg-default);">الشكل 1: القائمة الرئيسية للأداة (تحليل ملفات، متقدم، معلومات النظام)</i>
+
+</div>
 
 ---
 
@@ -294,10 +297,10 @@ df
 | [5] | 📖 تعليمات الاستخدام |
 | [0] | 🚪 خروج |
 
-</div>
 
 ---
 **اختصارات مهمة:**
+</div>
 
 - اضغط 8 للرجوع من القوائم الفرعية
 - اضغط Ctrl + C للخروج من الأداة مباشرة من أي مكان
@@ -450,13 +453,13 @@ cd /sdcard/Download
 
 </div>
 
-Termux:
+**Termux:**
 
 ```bash
 ln -sf $PREFIX/bin/mud_df.py $PREFIX/bin/df
 ```
 
-Kali Linux:
+**Kali Linux:**
 
 ```bash
 sudo ln -sf /usr/local/bin/mud_df.py /usr/local/bin/df
