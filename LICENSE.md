@@ -13,7 +13,7 @@
 
 Madarik Tools — No-Derivatives Attribution License
 Copyright (c) 2026 Muhannad (mmuhacker) — Madarik Tools (مدارك)
-Repository: https://github.com/mmuhacker/mud-enc
+Repository: https://github.com/mmuhacker/mud-df
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated files (the "Software"), to use,
@@ -23,7 +23,7 @@ copy, and redistribute the Software, subject to the following conditions:
    Any copy or redistribution of the Software must retain this license
    file, the copyright notice above, and must clearly credit the
    original author and this repository as the source
-   (https://github.com/mmuhacker/mud-enc).
+   (https://github.com/mmuhacker/mud-df).
 
 2. No Modification
    You may not modify, adapt, translate, obfuscate, reverse-engineer,
@@ -64,7 +64,7 @@ copy, and redistribute the Software, subject to the following conditions:
   
 رخصة مدارك تولز — النسخ والتوزيع بدون تعديل مع ذكر المصدر
 حقوق النشر © 2026 Muhannad Daher(mmuhacker) — مدارك تولز (Madarik Tools)
-رابط المستودع: https://github.com/mmuhacker/mud-enc
+رابط المستودع : https://github.com/mmuhacker/mud-df
 
 يُسمح لأي شخص يحصل على نسخة من هذا البرنامج والملفات المرفقة به
 ("البرنامج") باستخدامه ونسخه وإعادة توزيعه مجاناً، وفق الشروط التالية:<br>
@@ -72,7 +72,7 @@ copy, and redistribute the Software, subject to the following conditions:
 ١. ذكر المصدر (إلزامي)
    أي نسخة أو إعادة توزيع للبرنامج يجب أن تتضمن ملف الرخصة هذا، وإشعار
    حقوق النشر أعلاه، ويجب أن تنسب العمل بوضوح للمؤلف الأصلي ولرابط
-   المستودع (https://github.com/mmuhacker/mud-enc).
+   المستودع (https://github.com/mmuhacker/mud-df).
 
 ٢. منع التعديل
    لا يُسمح بتعديل البرنامج أو تطويعه أو ترجمته أو إخفاء شيفرته أو
