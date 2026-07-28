@@ -194,7 +194,7 @@ pkg install python -y
 الخطوة 2 — تثبيت المكتبات الأساسية
 
 ```bash
-pip install arabic-reshaper python-bidi
+pip install arabic_reshaper python-bidi==0.4.2
 ```
 
 الخطوة 3 — تثبيت الخط العربي (للعرض الصحيح)
